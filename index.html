@@ -62,6 +62,23 @@
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
             <button class="btn-close" type="button" data-modal-close></button>
+
+            <form class="modal-form">
+              <p class="form-title">Залиште свої дані, ми вам передзвонимо</p>
+              <label for="name">Ім'я</label>
+              <input type="text" id="name">
+              <label for="phone">Телефон</label>
+              <input type="tel" id="phone">
+              <label for="mail">Пошта</label>
+              <input type="tel" id="mail">
+              <label for="comment">Коментар</label>
+              <textarea name="" id="comment" cols="30" rows="10"></textarea>
+              <label><input type="checkbox" >
+                Погоджуюся з розсилкою та приймаю  <a href="">Умови договору</a>
+              
+              </label>
+              <button type="submit">Відправити</button>
+            </form>
           </div>
         </div>
       </section>
@@ -403,11 +420,13 @@
           </ul>
         </div>
 
-  <form class="footer-form">
-    <p class="footer-title">Підпишіться на розсилку</p>
-    <input type="email" name="" id="" placeholder="E-mail">
-    <button type="submit">Підписатися</button>
-  </form>
+    <form class="footer-form">
+      <p class="footer-title">Підпишіться на розсилку</p>
+      <div class="footer-subscribe">
+        <input class="sub-input" type="email" name="" id="" placeholder="E-mail">
+      <button class="btn" type="submit">Підписатися</button>
+      </div>
+    </form>
 
       </div>
     </footer>
