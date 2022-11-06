@@ -65,19 +65,36 @@
 
             <form class="modal-form">
               <p class="form-title">Залиште свої дані, ми вам передзвонимо</p>
-              <label for="name">Ім'я</label>
-              <input type="text" id="name">
-              <label for="phone">Телефон</label>
-              <input type="tel" id="phone">
-              <label for="mail">Пошта</label>
-              <input type="tel" id="mail">
-              <label for="comment">Коментар</label>
-              <textarea name="" id="comment" cols="30" rows="10"></textarea>
-              <label><input type="checkbox" >
-                Погоджуюся з розсилкою та приймаю  <a href="">Умови договору</a>
-              
-              </label>
-              <button type="submit">Відправити</button>
+              <div class="form-field">
+                <label class="form-label" for="name">Ім'я</label>
+                <input class="form-input" type="text" id="name" placeholder=" " />
+              </div>
+              <div class="form-field">
+                <label class="form-label" for="phone">Телефон</label>
+                <input class="form-input" type="tel" id="phone" placeholder=" " />
+              </div>
+              <div class="form-field">
+                <label class="form-label" for="mail">Пошта</label>
+                <input class="form-input" type="tel" id="mail" placeholder=" " />
+              </div>
+              <div class="form-field">
+                <label class="form-label" for="comment">Коментар</label>
+                <textarea
+                  class="form-textarea form-input"
+                  name=""
+                  id="comment"
+                  cols="30"
+                  rows="10"
+                  placeholder="Введіть текст"
+                ></textarea>
+              </div>
+              <div class="form-field">
+                <input type="checkbox" id="accept" />
+                <label for="accept"
+                  >Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a></label
+                >
+              </div>
+              <button class="btn" type="submit">Відправити</button>
             </form>
           </div>
         </div>
@@ -420,14 +437,13 @@
           </ul>
         </div>
 
-    <form class="footer-form">
-      <p class="footer-title">Підпишіться на розсилку</p>
-      <div class="footer-subscribe">
-        <input class="sub-input" type="email" name="" id="" placeholder="E-mail">
-      <button class="btn" type="submit">Підписатися</button>
-      </div>
-    </form>
-
+        <form class="footer-form">
+          <p class="footer-title">Підпишіться на розсилку</p>
+          <div class="footer-subscribe">
+            <input class="sub-input" type="email" name="" id="" placeholder="E-mail" />
+            <button class="btn" type="submit">Підписатися</button>
+          </div>
+        </form>
       </div>
     </footer>
 
