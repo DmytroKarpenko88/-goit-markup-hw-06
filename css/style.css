@@ -611,6 +611,23 @@ a.current::after {
 }
 .footer-subscribe {
   display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.footer-subscribe .form-label {
+  position: absolute;
+  left: 16px;
+  margin: 0;
+
+  font-size: 16px;
+  line-height: calc(20 / 16);
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+
+  color: var(--footer-text-color);
 }
 
 .footer-form .btn {
