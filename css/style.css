@@ -798,6 +798,17 @@ a.current::after {
 .form-field-check {
   display: flex;
   align-items: center;
+
+  
+line-height: calc(24/14);
+letter-spacing: 0.03em;
+
+color: var(--additional-text-color);
+}
+
+.form-field-check .form-link{
+  color:var(--btn-color);
+  text-decoration: underline;
 }
 
 .form-field-check input[type='checkbox'] {
