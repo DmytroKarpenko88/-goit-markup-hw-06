@@ -606,16 +606,17 @@ a.current::after {
   background-color: var(--btn-color);
 }
 
-.footer-form {
+.footer-subscribe {
   margin-left: auto;
 }
-.footer-subscribe {
+
+.footer-form {
   display: flex;
   align-items: center;
   position: relative;
 }
 
-.footer-subscribe .form-label {
+.footer-form .form-label {
   position: absolute;
   left: 16px;
   margin: 0;
@@ -799,15 +800,14 @@ a.current::after {
   display: flex;
   align-items: center;
 
-  
-line-height: calc(24/14);
-letter-spacing: 0.03em;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
 
-color: var(--additional-text-color);
+  color: var(--additional-text-color);
 }
 
-.form-field-check .form-link{
-  color:var(--btn-color);
+.form-field-check .form-link {
+  color: var(--btn-color);
   text-decoration: underline;
 }
 
