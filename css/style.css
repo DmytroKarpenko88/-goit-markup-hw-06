@@ -829,7 +829,7 @@ a.current::after {
   border: 2px solid var(--main-text-color);
   border-radius: 2px;
 
-  transition-property: background-color;
+  transition-property: background-color, border-color;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing-function);
 }
